@@ -24,8 +24,7 @@ for (let i = 0; i < productos.length; i++) {
 
   d.appendChild(ti);
   d.appendChild(imagen);
-
-  li.appendChild(d);
+  li.appendChild = d;
 }
 
 displayProductos(productos)
