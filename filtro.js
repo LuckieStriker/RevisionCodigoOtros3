@@ -22,10 +22,10 @@ for (let i = 0; i < productos.length; i++) {
   var imagen = document.createElement("img");
   imagen.setAttribute('src', productos[i].img);
 
-  d.appendChild(ti)
-  d.appendChild(imagen)
+  d.appendChild(ti);
+  d.appendChild(imagen);
 
-  li.appendChild(d)
+  li.appendChild(d);
 }
 
 displayProductos(productos)
